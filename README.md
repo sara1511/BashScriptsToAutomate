@@ -8,7 +8,7 @@
 
 `$srcapp = Get-AzWebApp -ResourceGroupName "Your RG Name" -Name "Your Web App Name"`
 
-`$destapp = New-AzWebApp -ResourceGroupName "Your RG Name" -Name "Your Web App Name-clone" -Location "Your Desired Location" -AppServicePlan "Your Web App Name-ASP" -SourceWebApp $srcapp`
+`$destapp = New-AzWebApp -ResourceGroupName "Your RG Name" -Name "Your Web App Name-clone" -Location "Your Desired Location" -AppServicePlan "Your New ASP Name" -SourceWebApp $srcapp`
 
 ***
 ## 2nd Task
@@ -26,4 +26,4 @@
 
 ***
 ## 5th Task 
-### Finally your are done and now you can analyze the flamegraph
+### Finally you are done with profiling and now it's time to analyze the flamegraph
